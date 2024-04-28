@@ -58,6 +58,13 @@
     50%{color:white;}
     100%{color:black;}
   }
+
+  .under{
+    max-height: 500px;
+    position: relative;
+    left: 800px;
+    top: -100px;
+  }
 }
 
 @media screen and (max-width: 549px) {
