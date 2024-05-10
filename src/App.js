@@ -8,8 +8,8 @@ function App() {
       <nav className='nav_web'>
         <a className='more'>≡</a>
         <div></div>
-        <a className='nav_items_web' id='about' href="#">About</a>
-        <a className='nav_items_web' id='projects' href="#">Projects</a>
+        <a className='nav_items_web' id='about' href="/about">About</a>
+        <a className='nav_items_web' id='projects' href="/projects">Projects</a>
         <a className='nav_items_web' id='contact' href="#">Contact</a>
         <div></div>
       </nav>
