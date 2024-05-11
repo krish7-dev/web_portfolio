@@ -15,15 +15,15 @@ function App() {
       </nav>
 
       <nav className='nav_mob'>
+      <a className='more'>≡</a>
         <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <a className='nav_items_mob' id='about' href="/about">About</a>
+        <a className='nav_items_mob' id='projects' href="/projects">Projects</a>
+        <a className='nav_items_mob' id='contact' href="#">Contact</a>
         <div></div>
       </nav>
 
-      <div className="name">Krishna</div>
+      <div className="name" id="first_name">Krishna</div>
       <div className="name">Anilkumar</div>
       <div>
         <img className='under' src={constr} />
