@@ -11,7 +11,7 @@ function Projects(){
             <table>
                 <tr>
                     <td>
-                        <a href="#"><img className='snp actv' src={snp}></img></a>
+                        <a href="https://www.quickgames.world/" target="__blank__"><img className='snp actv' src={snp}></img></a>
                     </td>
                     <td>
                         <a href="#"><img className='snp actv' src={bs}></img></a>
