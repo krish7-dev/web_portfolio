@@ -1,29 +1,32 @@
 import logo from './logo.svg';
 import './App.css';
-
+import constr from './media/images/under.png'
+import ico from './media/images/k_icon_cut_pg.png'
 function App() {
   return (
     <div className="App">
-      <nav className='nav_web'>
-        <a className='more'>≡</a>
-        <div></div>
-        <a className='nav_items_web' id='about' href="#">About</a>
-        <a className='nav_items_web' id='projects' href="#">Projects</a>
-        <a className='nav_items_web' id='contact' href="#">Contact</a>
-        <div></div>
-      </nav>
-
-      <nav className='nav_mob'>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </nav>
-
-      <div className="name">Krishna</div>
-      <div className="name">Anilkumar</div>
+      <div className="parent">
+      <div className="nav">
+        <div><img src={ico} className="ico"></img></div>
+        <div className="nav_items"><a href="#">About</a></div>
+        <div className="nav_items"><a href="/projects">Projects</a></div>
+        <div className="nav_items"><a href="#">Contact</a></div>
+        
+        
+      </div>
+      <div className="main_content">
+      <div className="space"></div>
+      <div className="name_content">
+        <div className="hi">hi,Im</div>
+        <div className="web_name" id="krishna">Krishna</div>
+        <div className="web_name" id="anil">Anilkumar</div>
+        <div className="desc">web developer / Frontend Developer</div>
+        <div className="ps">//Site is under development</div>
+      </div>
+      <div></div>
+      </div>
+      
+      </div>
     </div>
   );
 }
