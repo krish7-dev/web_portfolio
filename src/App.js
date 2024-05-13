@@ -2,7 +2,6 @@ import logo from './logo.svg';
 import './App.css';
 import constr from './media/images/under.png'
 import ico from './media/images/k_icon_cut_pg.png'
-import blb from './media/images/bulb.png'
 function App() {
   return (
     <div className="App">
